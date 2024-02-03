@@ -18,4 +18,3 @@ print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 # This is a is is
 
 
-
