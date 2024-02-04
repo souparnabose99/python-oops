@@ -1,5 +1,10 @@
 ##### @TODO: String Formatting #####
 
+# % Method:
+
+print("This is a %s string." %"something")
+print("This is a %s string for %s formatting." %("sample", "string"))
+
 # .format Method:
 
 print("This is regular {}".format("string"))
@@ -11,6 +16,8 @@ print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 
 # ----- @TODO Console Output -----
 
+# This is a something string.
+# This is a sample string for string formatting.
 # This is regular string
 # This is a regular string
 # This is a regular string
