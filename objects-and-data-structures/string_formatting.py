@@ -16,6 +16,17 @@ print("This is %r" %"AB \tCD")
 print("This no is %s" %3.75)
 print("This no is %d" %3.75)
 
+# Padding and Precision of Floating Point Numbers:
+# Floating point numbers use the format %5.2f
+# 5 would be the minimum number of characters the string should contain; these may be padded with whitespace if the entire number does not have this many digits
+# Next to this, .2f stands for how many numbers to show past the decimal point
+
+print("This is a floating point number : %5.2f" %11.1111)
+print("This is a floating point number : %1.0f" %11.1111)
+print("This is a floating point number : %15.8f" %11.1111)
+print("This is a floating point number : %1.8f" %11.1111)
+print("This is a floating point number : %2.2f" %11.1111)
+
 # .format Method:
 
 print("This is regular {}".format("string"))
@@ -37,6 +48,12 @@ print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 
 # This no is 3.75
 # This no is 3
+
+# This is a floating point number : 11.11
+# This is a floating point number : 11
+# This is a floating point number :     11.11110000
+# This is a floating point number : 11.11110000
+# This is a floating point number : 11.11
 
 # This is regular string
 # This is a regular string
