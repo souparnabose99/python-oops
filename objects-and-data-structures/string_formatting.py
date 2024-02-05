@@ -27,6 +27,9 @@ print("This is a floating point number : %15.8f" %11.1111)
 print("This is a floating point number : %1.8f" %11.1111)
 print("This is a floating point number : %2.2f" %11.1111)
 
+# Multiple formatting:
+print("This is a %s with %3.3f details" %("sample", 33.5555))
+
 # .format Method:
 
 print("This is regular {}".format("string"))
@@ -54,6 +57,8 @@ print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 # This is a floating point number :     11.11110000
 # This is a floating point number : 11.11110000
 # This is a floating point number : 11.11
+
+# This is a sample with 33.556 details
 
 # This is regular string
 # This is a regular string
