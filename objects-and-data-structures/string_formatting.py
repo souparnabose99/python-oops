@@ -38,6 +38,13 @@ print("This {0} a {1} {2}".format("is", "regular", "string"))
 print("This {a} a {b} {c}".format(a="is", b="regular", c="string"))
 print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 
+# Formatted String Literals (f-strings)
+# Can bring outside variables immediately into to the string rather than pass them as arguments through .format(var).
+
+var_1 = "python"
+print(f"This is {var_1} programming!!")
+print(f"This is {var_1!r} programming!!")
+
 
 # ----- @TODO Console Output -----
 
@@ -66,4 +73,5 @@ print("This {a} a {a} {a}".format(a="is", b="regular", c="string"))
 # This is a regular string
 # This is a is is
 
-
+# This is python programming!!
+# This is 'python' programming!!
