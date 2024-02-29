@@ -30,6 +30,7 @@ def func(*args, **kwargs):
 
 
 func(10, 201, 30, val="values", key="keywords")
+# func(10, val="123", 20) -> Will throw SyntaxError that Positional argument follows Keyword argument
 
 
 # ----- @TODO Console Output -----
