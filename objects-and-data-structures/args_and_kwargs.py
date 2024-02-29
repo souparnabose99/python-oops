@@ -23,6 +23,15 @@ val_2 = calculate_3(1, 2, 3, 4, 9)
 print(val_2)
 
 
+def func(*args, **kwargs):
+    print(args)
+    print(kwargs)
+    print("There are total {} {}".format(args[0], kwargs["val"]))
+
+
+func(10, 201, 30, val="values", key="keywords")
+
+
 # ----- @TODO Console Output -----
 # Traceback (most recent call last):
 #   File "F:\Data-Structures-Algorithms\Data-Structures\Objects-And-Data-Structures\args_and_kwargs.py", line 10, in <module>
@@ -30,4 +39,7 @@ print(val_2)
 # TypeError: calculate() takes from 3 to 4 positional arguments but 5 were given
 # 150
 # 190
+# (10, 201, 30)
+# {'val': 'values', 'key': 'keywords'}
+# There are total 10 values
 
