@@ -7,6 +7,8 @@
 # B: Built-in (Python) — Names preassigned in the built-in names module : open, range, SyntaxError,...
 print(__name__)
 
+
+
 # ----- @TODO Console Output -----
 
 
