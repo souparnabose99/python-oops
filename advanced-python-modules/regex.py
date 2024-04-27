@@ -12,6 +12,8 @@ sample_text_2 = "phone 1, phone 2, phone...."
 matches = re.findall("phone", sample_text_2)
 print(matches)
 
+for pat in re.finditer("phone", sample_text_2):
+    print(pat.group())
 
 # ----- @TODO Console Output -----
 
@@ -20,3 +22,6 @@ print(matches)
 # 14
 # 19
 # ['phone', 'phone', 'phone']
+# phone
+# phone
+# phone
