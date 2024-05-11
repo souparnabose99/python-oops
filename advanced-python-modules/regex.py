@@ -8,6 +8,10 @@ print(match.span())
 print(match.start())
 print(match.end())
 
+sample_text_2 = "phone 1, phone 2, phone...."
+matches = re.findall("phone", sample_text_2)
+print(matches)
+
 
 # ----- @TODO Console Output -----
 
@@ -15,3 +19,4 @@ print(match.end())
 # (14, 19)
 # 14
 # 19
+# ['phone', 'phone', 'phone']
