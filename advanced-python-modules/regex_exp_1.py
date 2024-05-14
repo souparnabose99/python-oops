@@ -29,6 +29,9 @@ print(re.findall(r"^\d", "4 is an even number"))
 print(re.findall(r"\d$", "Output is 0"))
 print(type(re.findall(r"\d$", "Output is 0")[0]))
 
+sample_text_2 = "There are 1 or 10 people waiting"
+print(re.findall(r"\D+", sample_text_2))
+
 # ----- @TODO Console Output -----
 
 # 111-222-3333
@@ -45,3 +48,4 @@ print(type(re.findall(r"\d$", "Output is 0")[0]))
 # ['4']
 # ['0']
 # <class 'str'>
+# ['There are ', ' or ', ' people waiting']
